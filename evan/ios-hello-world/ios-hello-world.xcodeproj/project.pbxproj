@@ -13,7 +13,8 @@
 		8ECDE69719F4ACA700AE6929 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ECDE69619F4ACA700AE6929 /* Images.xcassets */; };
 		8ECDE69A19F4ACA700AE6929 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8ECDE69819F4ACA700AE6929 /* LaunchScreen.xib */; };
 		8ECDE6A619F4ACA700AE6929 /* ios_hello_worldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECDE6A519F4ACA700AE6929 /* ios_hello_worldTests.swift */; };
-		8ECDE6B21A05A02900AE6929 /* Frozen-Snowman-640-960.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ECDE6B11A05A02900AE6929 /* Frozen-Snowman-640-960.png */; };
+		8ECDE6E61A0ED45B00AE6929 /* Balloons.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ECDE6E51A0ED45B00AE6929 /* Balloons.png */; };
+		8ECDE6E81A0ED47700AE6929 /* Saranghae.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ECDE6E71A0ED47700AE6929 /* Saranghae.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,8 @@
 		8ECDE69F19F4ACA700AE6929 /* ios-hello-worldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-hello-worldTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ECDE6A419F4ACA700AE6929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8ECDE6A519F4ACA700AE6929 /* ios_hello_worldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_hello_worldTests.swift; sourceTree = "<group>"; };
-		8ECDE6B11A05A02900AE6929 /* Frozen-Snowman-640-960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Frozen-Snowman-640-960.png"; sourceTree = "<group>"; };
+		8ECDE6E51A0ED45B00AE6929 /* Balloons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Balloons.png; sourceTree = "<group>"; };
+		8ECDE6E71A0ED47700AE6929 /* Saranghae.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Saranghae.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +94,8 @@
 		8ECDE68D19F4ACA700AE6929 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8ECDE6B11A05A02900AE6929 /* Frozen-Snowman-640-960.png */,
+				8ECDE6E71A0ED47700AE6929 /* Saranghae.png */,
+				8ECDE6E51A0ED45B00AE6929 /* Balloons.png */,
 				8ECDE68E19F4ACA700AE6929 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -195,8 +198,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8ECDE6B21A05A02900AE6929 /* Frozen-Snowman-640-960.png in Resources */,
 				8ECDE69519F4ACA700AE6929 /* Main.storyboard in Resources */,
+				8ECDE6E61A0ED45B00AE6929 /* Balloons.png in Resources */,
+				8ECDE6E81A0ED47700AE6929 /* Saranghae.png in Resources */,
 				8ECDE69A19F4ACA700AE6929 /* LaunchScreen.xib in Resources */,
 				8ECDE69719F4ACA700AE6929 /* Images.xcassets in Resources */,
 			);
