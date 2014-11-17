@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="6B6-yW-aQk">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="postcard" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="U1Z-qo-N1W">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="34" y="242" width="251" height="30"/>
+                                </variation>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="messgage" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9DZ-Wp-jCH">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="34" y="285" width="251" height="30"/>
+                                </variation>
+                            </textField>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y88-jy-cBh">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="39" y="92" width="133" height="69"/>
+                                </variation>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AlbertEinsteinStamp.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="06h-o1-4DE">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="204" y="92" width="107" height="97"/>
+                                </variation>
+                            </imageView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8iX-X0-dcM">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="112" y="162" width="76" height="21"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dvE-2l-Dr8">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.67873692889633797" blue="0.075727899571308988" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="send mail">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="39" y="199" width="116" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="sendMailButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cpU-gM-aP5"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="U1Z-qo-N1W"/>
+                                <exclude reference="9DZ-Wp-jCH"/>
+                                <exclude reference="y88-jy-cBh"/>
+                                <exclude reference="06h-o1-4DE"/>
+                                <exclude reference="8iX-X0-dcM"/>
+                                <exclude reference="dvE-2l-Dr8"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="U1Z-qo-N1W"/>
+                                <include reference="9DZ-Wp-jCH"/>
+                                <include reference="y88-jy-cBh"/>
+                                <include reference="06h-o1-4DE"/>
+                                <include reference="8iX-X0-dcM"/>
+                                <include reference="dvE-2l-Dr8"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="labelName" destination="8iX-X0-dcM" id="iRY-Ae-Bvr"/>
+                        <outlet property="labeltxt" destination="y88-jy-cBh" id="MmL-E6-5Vn"/>
+                        <outlet property="messageInput" destination="9DZ-Wp-jCH" id="ADZ-dW-JbL"/>
+                        <outlet property="sendMailButton" destination="dvE-2l-Dr8" id="LBU-9B-s6o"/>
+                        <outlet property="textinput" destination="U1Z-qo-N1W" id="JyK-53-7g3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1521" y="142"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="4tI-4b-FSg">
+            <objects>
+                <viewController id="yKQ-nw-Pbe" customClass="ViewController" customModule="postcard" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NTh-45-LK5"/>
+                        <viewControllerLayoutGuide type="bottom" id="TL0-Be-Doc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mGE-9h-iTM">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SagradaFamilia.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="lrr-5P-iWa">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="-8" width="400" height="643"/>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="lrr-5P-iWa"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="lrr-5P-iWa"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="dQX-Dw-VVl">
+                        <barButtonItem key="rightBarButtonItem" title="view" id="dj7-4d-rrg">
+                            <connections>
+                                <segue destination="BYZ-38-t0r" kind="show" id="Eem-ZN-hzK"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xw3-g8-aUn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="876" y="142"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="W42-kb-Db2">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6B6-yW-aQk" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="An4-bB-jbO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="yKQ-nw-Pbe" kind="relationship" relationship="rootViewController" id="3LQ-y7-jid"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c5o-T9-eRG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-42" y="142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="AlbertEinsteinStamp.jpg" width="1917" height="1344"/>
+        <image name="SagradaFamilia.jpeg" width="205" height="245"/>
+    </resources>
+</document>
