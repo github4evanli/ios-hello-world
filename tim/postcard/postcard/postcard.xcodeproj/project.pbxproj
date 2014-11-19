@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE8517801A06B347001D94E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE85177F1A06B347001D94E8 /* AppDelegate.swift */; };
+		AE8517821A06B347001D94E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8517811A06B347001D94E8 /* ViewController.swift */; };
+		AE8517851A06B347001D94E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE8517831A06B347001D94E8 /* Main.storyboard */; };
+		AE8517871A06B347001D94E8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE8517861A06B347001D94E8 /* Images.xcassets */; };
+		AE85178A1A06B347001D94E8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE8517881A06B347001D94E8 /* LaunchScreen.xib */; };
+		AE8517961A06B347001D94E8 /* postcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8517951A06B347001D94E8 /* postcardTests.swift */; };
+		AE8517A01A06BD7F001D94E8 /* robot-garage-irobot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE85179F1A06BD7F001D94E8 /* robot-garage-irobot.jpg */; };
+		AEFA7B7F1A19675800291F1F /* golden_gate_bridge_san_francisco.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEFA7B7E1A19675800291F1F /* golden_gate_bridge_san_francisco.jpg */; };
+		AEFA7B811A196AC500291F1F /* caflow.gif in Resources */ = {isa = PBXBuildFile; fileRef = AEFA7B801A196AC500291F1F /* caflow.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE8517901A06B347001D94E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE8517721A06B347001D94E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE8517791A06B347001D94E8;
+			remoteInfo = postcard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE85177A1A06B347001D94E8 /* postcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = postcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE85177E1A06B347001D94E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE85177F1A06B347001D94E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE8517811A06B347001D94E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE8517841A06B347001D94E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE8517861A06B347001D94E8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AE8517891A06B347001D94E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AE85178F1A06B347001D94E8 /* postcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = postcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE8517941A06B347001D94E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE8517951A06B347001D94E8 /* postcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postcardTests.swift; sourceTree = "<group>"; };
+		AE85179F1A06BD7F001D94E8 /* robot-garage-irobot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "robot-garage-irobot.jpg"; sourceTree = "<group>"; };
+		AEFA7B7E1A19675800291F1F /* golden_gate_bridge_san_francisco.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = golden_gate_bridge_san_francisco.jpg; sourceTree = "<group>"; };
+		AEFA7B801A196AC500291F1F /* caflow.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = caflow.gif; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE8517771A06B347001D94E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE85178C1A06B347001D94E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE8517711A06B347001D94E8 = {
+			isa = PBXGroup;
+			children = (
+				AE85177C1A06B347001D94E8 /* postcard */,
+				AE8517921A06B347001D94E8 /* postcardTests */,
+				AE85177B1A06B347001D94E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE85177B1A06B347001D94E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE85177A1A06B347001D94E8 /* postcard.app */,
+				AE85178F1A06B347001D94E8 /* postcardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE85177C1A06B347001D94E8 /* postcard */ = {
+			isa = PBXGroup;
+			children = (
+				AE85177F1A06B347001D94E8 /* AppDelegate.swift */,
+				AE8517811A06B347001D94E8 /* ViewController.swift */,
+				AE8517831A06B347001D94E8 /* Main.storyboard */,
+				AE8517861A06B347001D94E8 /* Images.xcassets */,
+				AE8517881A06B347001D94E8 /* LaunchScreen.xib */,
+				AE85177D1A06B347001D94E8 /* Supporting Files */,
+			);
+			path = postcard;
+			sourceTree = "<group>";
+		};
+		AE85177D1A06B347001D94E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEFA7B801A196AC500291F1F /* caflow.gif */,
+				AEFA7B7E1A19675800291F1F /* golden_gate_bridge_san_francisco.jpg */,
+				AE85179F1A06BD7F001D94E8 /* robot-garage-irobot.jpg */,
+				AE85177E1A06B347001D94E8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE8517921A06B347001D94E8 /* postcardTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE8517951A06B347001D94E8 /* postcardTests.swift */,
+				AE8517931A06B347001D94E8 /* Supporting Files */,
+			);
+			path = postcardTests;
+			sourceTree = "<group>";
+		};
+		AE8517931A06B347001D94E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE8517941A06B347001D94E8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE8517791A06B347001D94E8 /* postcard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE8517991A06B347001D94E8 /* Build configuration list for PBXNativeTarget "postcard" */;
+			buildPhases = (
+				AE8517761A06B347001D94E8 /* Sources */,
+				AE8517771A06B347001D94E8 /* Frameworks */,
+				AE8517781A06B347001D94E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = postcard;
+			productName = postcard;
+			productReference = AE85177A1A06B347001D94E8 /* postcard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE85178E1A06B347001D94E8 /* postcardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE85179C1A06B347001D94E8 /* Build configuration list for PBXNativeTarget "postcardTests" */;
+			buildPhases = (
+				AE85178B1A06B347001D94E8 /* Sources */,
+				AE85178C1A06B347001D94E8 /* Frameworks */,
+				AE85178D1A06B347001D94E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE8517911A06B347001D94E8 /* PBXTargetDependency */,
+			);
+			name = postcardTests;
+			productName = postcardTests;
+			productReference = AE85178F1A06B347001D94E8 /* postcardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE8517721A06B347001D94E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Chung-Ting Huang";
+				TargetAttributes = {
+					AE8517791A06B347001D94E8 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					AE85178E1A06B347001D94E8 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = AE8517791A06B347001D94E8;
+					};
+				};
+			};
+			buildConfigurationList = AE8517751A06B347001D94E8 /* Build configuration list for PBXProject "postcard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE8517711A06B347001D94E8;
+			productRefGroup = AE85177B1A06B347001D94E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE8517791A06B347001D94E8 /* postcard */,
+				AE85178E1A06B347001D94E8 /* postcardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE8517781A06B347001D94E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEFA7B7F1A19675800291F1F /* golden_gate_bridge_san_francisco.jpg in Resources */,
+				AE8517A01A06BD7F001D94E8 /* robot-garage-irobot.jpg in Resources */,
+				AEFA7B811A196AC500291F1F /* caflow.gif in Resources */,
+				AE8517851A06B347001D94E8 /* Main.storyboard in Resources */,
+				AE85178A1A06B347001D94E8 /* LaunchScreen.xib in Resources */,
+				AE8517871A06B347001D94E8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE85178D1A06B347001D94E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE8517761A06B347001D94E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE8517821A06B347001D94E8 /* ViewController.swift in Sources */,
+				AE8517801A06B347001D94E8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE85178B1A06B347001D94E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE8517961A06B347001D94E8 /* postcardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE8517911A06B347001D94E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE8517791A06B347001D94E8 /* postcard */;
+			targetProxy = AE8517901A06B347001D94E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE8517831A06B347001D94E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE8517841A06B347001D94E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE8517881A06B347001D94E8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE8517891A06B347001D94E8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE8517971A06B347001D94E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE8517981A06B347001D94E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE85179A1A06B347001D94E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = postcard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AE85179B1A06B347001D94E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = postcard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AE85179D1A06B347001D94E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = postcardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/postcard.app/postcard";
+			};
+			name = Debug;
+		};
+		AE85179E1A06B347001D94E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = postcardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/postcard.app/postcard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE8517751A06B347001D94E8 /* Build configuration list for PBXProject "postcard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE8517971A06B347001D94E8 /* Debug */,
+				AE8517981A06B347001D94E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE8517991A06B347001D94E8 /* Build configuration list for PBXNativeTarget "postcard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE85179A1A06B347001D94E8 /* Debug */,
+				AE85179B1A06B347001D94E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE85179C1A06B347001D94E8 /* Build configuration list for PBXNativeTarget "postcardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE85179D1A06B347001D94E8 /* Debug */,
+				AE85179E1A06B347001D94E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE8517721A06B347001D94E8 /* Project object */;
+}
